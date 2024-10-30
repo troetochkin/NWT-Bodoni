@@ -328,17 +328,21 @@ body {
 }
 
 .regular_book {
+	display: flex;
+	justify-content: center;
 	position: relative;
 	left: 137px;
 	width: 1451px;
-	height: 328px;
+	height: 336px;
 	background-image: url('../images/regular_book.svg');
 	font-size: 60;
+	z-index: -1;
 }
 
 .regular_container {
 	display: inline-flex;
-	gap: 44px;
+	align-items: center;
+	gap: 47px;
 }
 
 .regular_book_letter {
@@ -365,11 +369,44 @@ body {
 
 .i_letter_1 {
 	position: relative;
-	top: 0px;
-	left: 70px;
-	transform: rotate(-10deg);
+	top: 181px;
+	left: 52px;
+	transform: rotate(5deg);
+}
+.t_letter {
+	position: relative;
+	top: 245px;
+	left: 200px;
+	transform: rotate(17deg);
 }
 
+.a_letter {
+	position: relative;
+	top: -297px;
+	left: 501px;
+	transform: rotate(-20deg);
+}
+
+.l_letter {
+	position: relative;
+	top: -742px;
+	left: 403px;
+	transform: rotate(-64deg);
+}
+
+.i_letter_2 {
+	position: relative;
+	top: -218px;
+	left: 1147px;
+	transform: rotate(2deg);
+}
+
+.c_letter {
+	position: relative;
+	top: -613px;
+	left: 1273px;
+	transform: rotate(-24deg);
+}
 .bold_book {
 	position: relative;
 	top: 58px;
@@ -377,4 +414,17 @@ body {
 	width: 1425px;
 	height: 328px;
 	background-image: url('../images/bold_book.svg');
+}
+
+.bold_container {
+	display: inline-flex;
+	align-items: center;
+	gap: 192px;
+}
+
+.bold_book_letter {
+	color: #fff;
+	font-size: 300px;
+	font-style: normal;
+	font-weight: 700;
 }
