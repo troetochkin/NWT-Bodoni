@@ -4,13 +4,13 @@
 
 body {
 	width: 1728px;
-	height: 10369px;
+	height: 10410px;
 	background-color: #bbbbbb;
 	display: block;
 	margin: 0 auto;
-	position: relative;
 	overflow-x: hidden;
 	font-family: 'NWT Bodoni';
+	position: relative;
 }
 
 ._H1_ {
