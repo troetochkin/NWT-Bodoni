@@ -143,6 +143,7 @@ body {
 	width: 1728px;
 	height: 1830px;
 	background-image: url('../images/background_stairs.svg');
+	z-index: -1;
 }
 
 .font_facts_ {
@@ -192,32 +193,32 @@ body {
 	width: 378px;
 	height: 123px;
 	position: relative;
-	top: -1733px;
-	left: 996px;
+	top: -1729px;
+	left: 1000px;
 }
 
 .explanation_settings_2 {
 	width: 584px;
 	height: 82px;
 	position: relative;
-	top: -1514px;
-	left: 1095px;
+	top: -1508px;
+	left: 1088px;
 }
 
 .explanation_settings_3 {
 	width: 622px;
 	height: 41px;
 	position: relative;
-	top: -1254px;
-	left: 852px;
+	top: -1247px;
+	left: 849px;
 }
 
 .explanation_settings_4 {
 	width: 607px;
 	height: 123px;
 	position: relative;
-	top: -1011px;
-	left: 655px;
+	top: -1005px;
+	left: 661px;
 }
 
 .paper {
@@ -360,8 +361,9 @@ body {
 
 .tablet {
 	position: relative;
-	top: -1209px;
-	left: 20px;
+	top: 556px;
+	left: -429px;
+	text-align: center;
 }
 
 .shelving {
@@ -678,12 +680,15 @@ body {
 }
 
 .glif_book {
-	position: relative;
-	top: -1381px;
-	left: 0px;
 	width: 1728px;
 	height: 1816px;
 	background-image: url('../images/glif_book.svg');
+}
+
+section:nth-of-type(8) {
+	position: relative;
+	top: -1381px;
+	left: 0px;
 }
 
 .glif_naming {
@@ -698,13 +703,16 @@ body {
 }
 
 .number_book {
+	width: 1728px;
+	height: 2339px;
+	background-image: url('../images/number_book.svg');
+}
+
+section:nth-of-type(9) {
 	position: relative;
 	top: -3128px;
 	left: -198px;
 	z-index: -1;
-	width: 1728px;
-	height: 2339px;
-	background-image: url('../images/number_book.svg');
 }
 
 .number_naming {
@@ -777,4 +785,25 @@ body {
 	position: relative;
 	top: 779px;
 	left: 1448px;
+}
+
+.bottom_container {
+	width: 1728px;
+	display: inline-flex;
+	align-items: center;
+	gap: 411px;
+}
+
+.center_bottom {
+	text-align: center;
+}
+
+.right_bootom {
+	text-align: right;
+}
+
+section:nth-of-type(10) {
+	position: relative;
+	top: -3223px;
+	left: 41px;
 }

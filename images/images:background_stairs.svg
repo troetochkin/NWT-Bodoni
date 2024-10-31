@@ -3,25 +3,21 @@
 <rect x="758.999" y="151" width="651" height="138" fill="#3D3D3D"/>
 <rect x="813.999" y="311.75" width="702" height="138" fill="#3D3D3D"/>
 <rect x="919.999" y="472.25" width="702" height="138" fill="#3D3D3D"/>
-<rect width="702" height="138.501" transform="matrix(-1 0 0 1 1728 633.75)" fill="#3D3D3D"/>
+<rect width="702" height="138.501" transform="matrix(-1 0 0 1 1728 634)" fill="#3D3D3D"/>
 <rect width="702" height="138" transform="matrix(-1 0 0 1 1622 795.75)" fill="#3D3D3D"/>
 <rect width="702" height="138" transform="matrix(-1 0 0 1 1516 957)" fill="#3D3D3D"/>
-<rect width="702" height="138" transform="matrix(-1 0 0 1 1410 1118.5)" fill="#3D3D3D"/>
-<rect width="702" height="138" transform="matrix(-1 0 0 1 1304.01 1280)" fill="#3D3D3D"/>
-<rect width="702" height="138" transform="matrix(-1 0 0 1 1198.01 1441.5)" fill="#3D3D3D"/>
-<rect width="702" height="138" transform="matrix(-1 0 0 1 1092.01 1602.75)" fill="#3D3D3D"/>
-<rect width="702" height="138" transform="matrix(-1 0 0 1 986.007 1764)" fill="#3D3D3D"/>
+<rect width="702" height="138" transform="matrix(-1 0 0 1 1410 1119)" fill="#3D3D3D"/>
+<rect width="702" height="138" transform="matrix(-1 0 0 1 1305 1280)" fill="#3D3D3D"/>
+<rect width="702" height="138" transform="matrix(-1 0 0 1 1199 1442)" fill="#3D3D3D"/>
 <path d="M759 288L1410 288.25L1516 311.75H813.999L759 288Z" fill="black"/>
 <path d="M707.999 134H1364L1410 151H758.999L707.999 134Z" fill="black"/>
 <path d="M813.999 449.25H1516L1622 472.75H919.999L813.999 449.25Z" fill="black"/>
 <path d="M919.999 610.25H1622L1728 633.75H1026L919.999 610.25Z" fill="black"/>
-<path d="M1728 772.251H1026L919.998 795.751H1622L1728 772.251Z" fill="black"/>
+<path d="M1728 772.25H1026L919.998 795.75H1622L1728 772.25Z" fill="black"/>
 <path d="M1622.14 933.75H920.138L814.138 957.25H1516.14L1622.14 933.75Z" fill="black"/>
-<path d="M1516 1095H814L708 1118.5H1410L1516 1095Z" fill="black"/>
-<path d="M1410.01 1256.5H708.006L602.006 1280H1304.01L1410.01 1256.5Z" fill="black"/>
-<path d="M1304.01 1418H602.007L496.007 1441.5H1198.01L1304.01 1418Z" fill="black"/>
-<path d="M1198.01 1579.25H496.007L390.007 1602.75H1092.01L1198.01 1579.25Z" fill="black"/>
-<path d="M1092.01 1740.5H390.007L284.007 1764H986.007L1092.01 1740.5Z" fill="black"/>
+<path d="M1516.27 1095.25H814.266L708.266 1118.75H1410.27L1516.27 1095.25Z" fill="black"/>
+<path d="M1410.41 1256.75H708.406L602.406 1280.25H1304.41L1410.41 1256.75Z" fill="black"/>
+<path d="M1304.64 1418.25H602.64L496.64 1441.75H1198.64L1304.64 1418.25Z" fill="black"/>
 <path d="M684 0L1385 0L1364 134H708L684 0Z" fill="#3D3D3D"/>
 <path d="M104.812 770L156.011 748.234L185.651 821.511L158.718 827.478L145.252 830.462C145.252 830.462 139.397 830.767 134.408 828.79C128.125 826.301 125.042 817.585 125.042 817.585L118.299 801.723L104.812 770Z" fill="black"/>
 <path d="M-59.6618 261.449L316.759 216.979L598.707 728.944L161.202 826.928L-59.6618 261.449Z" fill="black"/>
