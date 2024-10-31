@@ -9,7 +9,7 @@ body {
 	display: block;
 	margin: 0 auto;
 	position: relative;
-	/* overflow-x: hidden; */
+	overflow-x: hidden;
 	font-family: 'NWT Bodoni';
 }
 
