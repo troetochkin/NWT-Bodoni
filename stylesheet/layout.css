@@ -13,6 +13,48 @@ body {
 	font-family: 'NWT Bodoni';
 }
 
+._H1_ {
+	font-size: 170px;
+}
+
+._H2_ {
+	font-size: 90px;
+}
+
+._H3_ {
+	font-size: 60px;
+}
+
+._H4_ {
+	font-size: 40px;
+}
+
+._p_ {
+	font-size: 24px;
+}
+._regular_ {
+	font-style: normal;
+	font-weight: 400;
+}
+
+._italic_ {
+	font-style: italic;
+	font-weight: 400;
+}
+
+._bold_ {
+	font-style: normal;
+	font-weight: 700;
+}
+
+._white_ {
+	color: #fff;
+}
+
+._black_ {
+	color: #000000;
+}
+
 .vhodnaya_grupa {
 	width: 1728px;
 	height: 948px;
@@ -23,23 +65,21 @@ body {
 	font-weight: normal;
 }
 
-.italic_H1 {
+._heading_1_2_ {
 	position: relative;
 	top: 462px;
 	left: 138px;
 	transform: rotate(5deg);
-	font-style: italic;
 }
 
-.regular_H1 {
+._heading_2_2_ {
 	position: relative;
 	top: 328px;
 	left: 531px;
 	transform: rotate(5deg);
-	font-style: normal;
 }
 
-.baground_door {
+.bacground_door {
 	position: relative;
 	top: -409px;
 	z-index: -3;
@@ -47,6 +87,54 @@ body {
 	height: 1389px;
 	background-image: url('../images/baground_door.svg');
 	background-repeat: no-repeat;
+}
+
+._list_1_7_ {
+	position: relative;
+	top: 740px;
+	left: 98px;
+	transform: rotate(9.89deg);
+}
+
+._list_2_7_ {
+	position: relative;
+	top: 768px;
+	left: 140px;
+	transform: rotate(9.89deg);
+}
+
+._list_3_7_ {
+	position: relative;
+	top: 791px;
+	left: 159px;
+	transform: rotate(9.89deg);
+}
+
+._list_4_7_ {
+	position: relative;
+	top: 803px;
+	left: 107px;
+	transform: rotate(9.89deg);
+}
+
+._list_5_7_ {
+	position: relative;
+	top: 811px;
+	left: 46px;
+	transform: rotate(9.89deg);
+}
+
+._list_6_7_ {
+	position: relative;
+	top: 843px;
+	left: 105px;
+	transform: rotate(9.89deg);
+}
+._list_7_7_ {
+	position: relative;
+	top: 859px;
+	left: 91px;
+	transform: rotate(9.89deg);
 }
 
 .background_stairs {
@@ -57,9 +145,45 @@ body {
 	background-image: url('../images/background_stairs.svg');
 }
 
+.font_facts_ {
+	font-size: 450px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.a_fact {
+	position: relative;
+	top: -121px;
+	left: 48px;
+	transform: rotateX(36deg) rotateY(0deg) rotateZ(-23deg);
+	font-size: 700px;
+}
+
+.f_fact {
+	position: relative;
+	top: 36px;
+	left: 300px;
+	transform: rotateX(36deg) rotateY(-19deg) rotateZ(28deg);
+}
+
+.k_fact {
+	position: relative;
+	top: -204px;
+	left: -58px;
+	transform: rotateX(-17deg) rotateY(39deg) rotateZ(-13deg);
+}
+
+.q_fact {
+	position: relative;
+	top: -888px;
+	left: 1233px;
+	transform: rotateX(-5deg) rotateY(-17deg) rotateZ(-44deg);
+}
+
 .font_explanation {
 	font-size: 40px;
-	font-weight: normal;
+	font-weight: 400;
 	font-style: italic;
 	color: #ffffff;
 }
@@ -68,32 +192,32 @@ body {
 	width: 378px;
 	height: 123px;
 	position: relative;
-	top: 478px;
-	left: 1104px;
+	top: -1733px;
+	left: 996px;
 }
 
 .explanation_settings_2 {
 	width: 584px;
 	height: 82px;
 	position: relative;
-	top: 704px;
-	left: 988px;
+	top: -1514px;
+	left: 1095px;
 }
 
 .explanation_settings_3 {
 	width: 622px;
 	height: 41px;
 	position: relative;
-	top: 961px;
-	left: 746px;
+	top: -1254px;
+	left: 852px;
 }
 
 .explanation_settings_4 {
 	width: 607px;
 	height: 123px;
 	position: relative;
-	top: 1200px;
-	left: 539px;
+	top: -1011px;
+	left: 655px;
 }
 
 .paper {
@@ -106,27 +230,143 @@ body {
 	background-repeat: no-repeat;
 }
 
-.bilet {
+.old_ticket {
 	position: relative;
-	top: 168px;
-	left: 344px;
-	color: #ff0000;
-	font-size: 64px;
-	font-style: normal;
-	font-weight: 700;
+	top: 172px;
+	left: 346px;
+}
+
+.old_author {
+	position: relative;
+	top: 215px;
+	left: 347px;
+}
+.old_status {
+	position: relative;
+	top: 218px;
+	left: 347px;
+}
+
+.old_location {
+	position: relative;
+	top: 242px;
+	left: 347px;
+}
+
+.old_hometown {
+	position: relative;
+	top: 246px;
+	left: 347px;
+}
+
+.old_plot {
+	position: relative;
+	top: 368px;
+	left: 209px;
+	width: 527px;
+	height: 200px;
+}
+
+.old_date {
+	position: relative;
+	top: 254px;
+	left: 40px;
+	transform: rotate(-90deg);
+	width: 230px;
+	height: 25px;
+}
+
+.old_sign {
+	position: relative;
+	top: 449px;
+	left: 302px;
+}
+
+.old_after_words {
+	position: relative;
+	top: 494px;
+	left: 204px;
+	width: 527px;
+	height: 175px;
+}
+
+.ticket {
+	position: relative;
+	top: -1560px;
+	left: 1166px;
+}
+.author {
+	position: relative;
+	top: -1516px;
+	left: 1158px;
+}
+
+.status {
+	position: relative;
+	top: -1511px;
+	left: 1159px;
+}
+
+.location {
+	position: relative;
+	top: -1488px;
+	left: 1158px;
+}
+
+.hometown {
+	position: relative;
+	top: -1485px;
+	left: 1160px;
+}
+
+.plot {
+	position: relative;
+	top: -1363px;
+	left: 1021px;
+	width: 527px;
+	height: 200px;
+}
+
+.date {
+	position: relative;
+	top: -1476px;
+	left: 854px;
+	transform: rotate(-90deg);
+	width: 230px;
+	height: 25px;
+}
+
+.sign {
+	position: relative;
+	top: -1278px;
+	left: 1117px;
+}
+
+.after_words {
+	position: relative;
+	top: -1238px;
+	left: 1019px;
+	width: 527px;
+	height: 175px;
 }
 
 .bookshelf {
 	position: relative;
-	top: -558px;
+	top: -1209px;
 	width: 1728px;
 	height: 1103px;
 	background-image: url('../images/bookshelf.svg');
 }
 
+.tablet {
+	position: relative;
+	top: -1209px;
+	left: 20px;
+}
+
 .shelving {
 	position: relative;
-	top: -688px;
+	top: -1411px;
 	left: 3px;
 	width: 1728px;
 	height: 1260px;
@@ -321,7 +561,7 @@ body {
 
 .shelf {
 	position: relative;
-	top: -672px;
+	top: -1403px;
 	width: 1728px;
 	height: 1075px;
 	background-image: url('../images/shelf.svg');
@@ -412,14 +652,22 @@ body {
 	top: 58px;
 	left: 137px;
 	width: 1425px;
-	height: 328px;
+	height: 346px;
 	background-image: url('../images/bold_book.svg');
+	z-index: -1;
 }
 
 .bold_container {
 	display: inline-flex;
 	align-items: center;
+	align-items: flex-end;
 	gap: 192px;
+	.bold_book_letter:nth-of-type(1) {
+		margin-left: 19px;
+	}
+	.bold_book_letter:nth-of-type(4) {
+		margin-left: -15px;
+	}
 }
 
 .bold_book_letter {
@@ -427,4 +675,106 @@ body {
 	font-size: 300px;
 	font-style: normal;
 	font-weight: 700;
+}
+
+.glif_book {
+	position: relative;
+	top: -1381px;
+	left: 0px;
+	width: 1728px;
+	height: 1816px;
+	background-image: url('../images/glif_book.svg');
+}
+
+.glif_naming {
+	position: relative;
+	top: 1158px;
+	left: -126px;
+	transform: rotate(57deg);
+	color: #fff;
+	font-size: 170px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.number_book {
+	position: relative;
+	top: -3128px;
+	left: -198px;
+	z-index: -1;
+	width: 1728px;
+	height: 2339px;
+	background-image: url('../images/number_book.svg');
+}
+
+.number_naming {
+	position: relative;
+	top: 1270px;
+	left: 868px;
+	color: #fff;
+	font-size: 170px;
+	font-style: italic;
+	font-weight: 400;
+	transform: rotate(-20deg);
+}
+
+.number_ {
+	color: #000000;
+	font-size: 128px;
+	font-style: italic;
+	font-weight: 400;
+	transform: rotate(5deg);
+}
+
+.count_1_9 {
+	position: relative;
+	top: 1631px;
+	left: 1019px;
+}
+
+.count_2_9 {
+	position: relative;
+	top: 1705px;
+	left: 912px;
+}
+
+.count_3_9 {
+	position: relative;
+	top: 1420px;
+	left: 1125px;
+}
+
+.count_4_9 {
+	position: relative;
+	top: 1408px;
+	left: 1086px;
+}
+
+.count_5_9 {
+	position: relative;
+	top: 1030px;
+	left: 1240px;
+}
+
+.count_6_9 {
+	position: relative;
+	top: 1083px;
+	left: 1250px;
+}
+
+.count_7_9 {
+	position: relative;
+	top: 1052px;
+	left: 1297px;
+}
+
+.count_8_9 {
+	position: relative;
+	top: 804px;
+	left: 1400px;
+}
+.count_9_9 {
+	position: relative;
+	top: 779px;
+	left: 1448px;
 }
