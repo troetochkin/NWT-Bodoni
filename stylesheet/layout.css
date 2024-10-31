@@ -15,27 +15,27 @@ body {
 
 ._H1_ {
 	font-size: 170px;
-	font-family: 'NWT Bodoni';
+	font-family: 'NWT Bodoni', Arial, Helvetica, sans-serif;
 }
 
 ._H2_ {
 	font-size: 90px;
-	font-family: 'NWT Bodoni';
+	font-family: 'NWT Bodoni', Arial, Helvetica, sans-serif;
 }
 
 ._H3_ {
 	font-size: 60px;
-	font-family: 'NWT Bodoni';
+	font-family: 'NWT Bodoni', Arial, Helvetica, sans-serif;
 }
 
 ._H4_ {
 	font-size: 40px;
-	font-family: 'NWT Bodoni';
+	font-family: 'NWT Bodoni', Arial, Helvetica, sans-serif;
 }
 
 ._p_ {
 	font-size: 24px;
-	font-family: 'NWT Bodoni';
+	font-family: 'NWT Bodoni', Arial, Helvetica, sans-serif;
 }
 ._regular_ {
 	font-style: normal;
