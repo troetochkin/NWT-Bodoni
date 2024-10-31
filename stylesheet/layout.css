@@ -794,9 +794,12 @@ section:nth-of-type(9) {
 
 .bottom_container {
 	width: 1728px;
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 	gap: 411px;
+	position: relative;
+	top: -3223px;
+	left: 41px;
 }
 
 .center_bottom {
@@ -805,10 +808,4 @@ section:nth-of-type(9) {
 
 .right_bootom {
 	text-align: right;
-}
-
-section:nth-of-type(10) {
-	position: relative;
-	top: -3223px;
-	left: 41px;
 }
